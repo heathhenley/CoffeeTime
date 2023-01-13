@@ -27,7 +27,7 @@ function AppFooter(props) {
   return (
     <div className="App-footer shadow">
       <div className="center">
-        Help improve this app on <a href="#" >
+        Help improve this app on <a href="https://github.com/heathhenley/CoffeeTime" >
           <img className="logo" src={gh_logo}/></a>
       </div>
     </div>

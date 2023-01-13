@@ -64,8 +64,7 @@ class Timer extends React.Component {
       <button onClick={this.stopTimer}>
         <img src={pause_icon} alt="Stop timer"/>
       </button>
-    let reset = (this.state.time === this.state.start) ?
-      null :
+    let reset =
       <button onClick={this.resetTimer}>
         <img src={reset_icon} alt="Reset timer"/>
       </button>
