@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CoffeeTime/static/css/main.5f4693e8.css",
-    "main.js": "/CoffeeTime/static/js/main.087ac7d2.js",
+    "main.js": "/CoffeeTime/static/js/main.768db81d.js",
     "static/js/787.e3408d66.chunk.js": "/CoffeeTime/static/js/787.e3408d66.chunk.js",
     "static/media/grind.png": "/CoffeeTime/static/media/grind.8e23c03f8dc861e2cdad.png",
     "static/media/coffee_in_cup.png": "/CoffeeTime/static/media/coffee_in_cup.90660e3cc6691ce3b8ab.png",
@@ -11,11 +11,11 @@
     "static/media/reset.png": "/CoffeeTime/static/media/reset.ea6efd86ec81bdb46893.png",
     "index.html": "/CoffeeTime/index.html",
     "main.5f4693e8.css.map": "/CoffeeTime/static/css/main.5f4693e8.css.map",
-    "main.087ac7d2.js.map": "/CoffeeTime/static/js/main.087ac7d2.js.map",
+    "main.768db81d.js.map": "/CoffeeTime/static/js/main.768db81d.js.map",
     "787.e3408d66.chunk.js.map": "/CoffeeTime/static/js/787.e3408d66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f4693e8.css",
-    "static/js/main.087ac7d2.js"
+    "static/js/main.768db81d.js"
   ]
 }
