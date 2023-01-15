@@ -91,10 +91,7 @@ class Timer extends React.Component {
         </span>
       </div>
       <div className="timer-controls">
-        <div className="row">
-          <div className="col-4 offset-2">{start}{stop}</div>
-          <div className="col-3">{reset}</div>
-        </div>
+          {start}{stop}{reset}
       </div>
       </div>
     )
