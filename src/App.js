@@ -72,15 +72,14 @@ class CoffeeSteps extends React.Component {
     // Should I set up routing so that refreshes will return to the proper
     // step?
     let StepView = v60Steps[this.state.brew_step];
-    let props = {
-            brew_step: this.state.brew_step,
-            water: this.state.water,
-            coffee: this.getCoffeeAmount(this.state.water),
-            onChangedWater: (e) => {this.handleChangedWaterAmount(e)}
-    };
     return (
       <div className="content shadow">
-        {StepView(props)}
+        <StepView
+          brew_step={this.state.brew_step}
+          water={this.state.water}
+          coffee={this.getCoffeeAmount(this.state.water)}
+          onChangedWater={(e) => {this.handleChangedWaterAmount(e)}}
+        />
         <div className="navigation">
           <Controls
             direction="prev"
